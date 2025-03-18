@@ -6,7 +6,27 @@
         xmlns:local="clr-namespace:lab_two"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+	<StackPanel Orientation="Vertical">
+		<Label Content="Label"				HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"/>
+		<TextBox Width="500">
+			TextBox
+		</TextBox>
+		<TextBox Width="500">
+			TextBox
+		</TextBox>
+		<TextBox Width="500">
+			TextBox
+		</TextBox>
+		<TextBox Width="500">
+			TextBox
+		</TextBox>
+		<TextBox Width="500">
+			TextBox
+		</TextBox>
+		<TextBox Width="500">
+			TextBox
+		</TextBox>
+		<Button Content="Button" Width="300"/>
+	</StackPanel>
 </Window>
