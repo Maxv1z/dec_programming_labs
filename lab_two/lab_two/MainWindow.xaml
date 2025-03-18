@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:lab_two"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-	<DockPanel>
-		<TextBox DockPanel.Dock="Left" Width="190">Top</TextBox>
-		<TextBox DockPanel.Dock="Right" Width="190">Right</TextBox>
-		<Button DockPanel.Dock="Bottom">Button</Button>
-		<Label >Label</Label>
-	</DockPanel>
+	<Canvas>
+		<Label Content="Label" Canvas.Left="20" Canvas.Top="20"/>
+		<TextBox Canvas.Left="20" Canvas.Top="40" Width="100"/>
+		<Button Content="Button" Canvas.Left="20" Canvas.Top="60" Width="100"/>
+	</Canvas>
 </Window>
