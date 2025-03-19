@@ -5,17 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab_two"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-	<Grid>
-		<!-- Define two rows: one for the menu and one for the text area -->
+        Title="TextEditor" Height="450" Width="800">
+
+	<Window.Resources>
+		<!-- Градієнтна заливка -->
+		<LinearGradientBrush x:Key="LinearPanelBrush" StartPoint="0,0" EndPoint="1,1">
+			<GradientStop Color="Yellow" Offset="0.0"/>
+			<GradientStop Color="LightBlue" Offset="0.5"/>
+			<GradientStop Color="Yellow" Offset="1.0"/>
+		</LinearGradientBrush>
+
+		<!-- Стиль для кнопок -->
+		<Style x:Key="CustomButtonStyle" TargetType="Button">
+			<Setter Property="Padding" Value="5"/>
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="BorderBrush" Value="White"/>
+			<Setter Property="BorderThickness" Value="1"/>
+		</Style>
+	</Window.Resources>
+
+	<Grid Background="{StaticResource LinearPanelBrush}">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
-			<!-- Auto height for the menu row -->
 			<RowDefinition Height="*"/>
-			<!-- Takes the remaining space for the text area -->
 		</Grid.RowDefinitions>
 
-		<Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10">
+		<Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10" Background="{StaticResource LinearPanelBrush}">
 			<StackPanel Orientation="Horizontal">
 				<Button ToolTip="Open">
 					<Image Source="C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\images\open_icon.png" Width="16" Height="16"/>
@@ -42,7 +57,7 @@
 				<TextBox Grid.Row="0" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap"/>
 
 				<DockPanel Grid.Row="1" Margin="0,5,0,0">
-					<Button DockPanel.Dock="Bottom" HorizontalAlignment="Right" Padding="10,2" Content="OK"/>
+					<Button DockPanel.Dock="Bottom" HorizontalAlignment="Center" Padding="10,2" Content="OK"/>
 				</DockPanel>
 			</Grid>
 		</Border>
