@@ -8,14 +8,12 @@
         Title="TextEditor" Height="450" Width="800">
 
 	<Window.Resources>
-		<!-- Градієнтна заливка -->
 		<LinearGradientBrush x:Key="LinearPanelBrush" StartPoint="0,0" EndPoint="1,1">
 			<GradientStop Color="Yellow" Offset="0.0"/>
 			<GradientStop Color="LightBlue" Offset="0.5"/>
 			<GradientStop Color="Yellow" Offset="1.0"/>
 		</LinearGradientBrush>
 
-		<!-- Стиль для кнопок -->
 		<Style x:Key="CustomButtonStyle" TargetType="Button">
 			<Setter Property="Padding" Value="5"/>
 			<Setter Property="Background" Value="Transparent"/>
@@ -32,16 +30,16 @@
 
 		<Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10" Background="{StaticResource LinearPanelBrush}">
 			<StackPanel Orientation="Horizontal">
-				<Button ToolTip="Open">
+				<Button ToolTip="Open" Command="{x:Static ApplicationCommands.Open}">
 					<Image Source="C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\images\open_icon.png" Width="16" Height="16"/>
 				</Button>
-				<Button ToolTip="Clear">
+				<Button ToolTip="Clear" Command="{x:Static local:MainWindow.ClearCommand}">
 					<Image Source="C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\images\clear_icon.png" Width="16" Height="16"/>
 				</Button>
-				<Button ToolTip="Copy">
+				<Button ToolTip="Copy" Command="{x:Static ApplicationCommands.Copy}">
 					<Image Source="C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\images\copy_icon.png" Width="16" Height="16"/>
 				</Button>
-				<Button ToolTip="Paste">
+				<Button ToolTip="Paste" Command="{x:Static ApplicationCommands.Paste}">
 					<Image Source="C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\images\paste_icon.png" Width="16" Height="16"/>
 				</Button>
 			</StackPanel>
@@ -54,10 +52,15 @@
 					<RowDefinition Height="Auto"/>
 				</Grid.RowDefinitions>
 
-				<TextBox Grid.Row="0" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap"/>
+				<TextBox x:Name="textBox" Grid.Row="0" VerticalScrollBarVisibility="Auto"
+                         AcceptsReturn="True" TextWrapping="Wrap" FontSize="{Binding ElementName=fontSlider, Path=Value}"/>
 
 				<DockPanel Grid.Row="1" Margin="0,5,0,0">
-					<Button DockPanel.Dock="Bottom" HorizontalAlignment="Center" Padding="10,2" Content="OK"/>
+					<Label Content="Розмір шрифту:" DockPanel.Dock="Left" VerticalAlignment="Center" Margin="4,0,0,0"/>
+					<Slider DockPanel.Dock="Left" Margin="4" MinWidth="100" Name="fontSlider"
+                            Maximum="100" Minimum="12" VerticalAlignment="Center"/>
+					<Button DockPanel.Dock="Right" HorizontalAlignment="Center" Padding="10,2"
+                            Content="OK" Command="{x:Static ApplicationCommands.Save}"/>
 				</DockPanel>
 			</Grid>
 		</Border>
