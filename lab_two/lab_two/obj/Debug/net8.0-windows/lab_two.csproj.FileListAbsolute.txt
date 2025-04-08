@@ -21,3 +21,26 @@ C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\refi
 C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.pdb
 C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.genruntimeconfig.cache
 C:\Users\Max\Desktop\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\ref\lab_two.dll
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\bin\Debug\net8.0-windows\lab_two.exe
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\bin\Debug\net8.0-windows\lab_two.deps.json
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\bin\Debug\net8.0-windows\lab_two.runtimeconfig.json
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\bin\Debug\net8.0-windows\lab_two.dll
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\bin\Debug\net8.0-windows\lab_two.pdb
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\Grid.baml
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\Grid.g.cs
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two_MarkupCompile.cache
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two_MarkupCompile.lref
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.g.resources
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.AssemblyInfo.cs
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.sourcelink.json
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.dll
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\refint\lab_two.dll
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.pdb
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\lab_two.genruntimeconfig.cache
+C:\Users\Max\Desktop\Навчання\KPI\KPI Labs\3 курс\Декларативне програмування\Dec prog labs\lab_two\lab_two\obj\Debug\net8.0-windows\ref\lab_two.dll
